@@ -1,0 +1,11 @@
+{
+  "name": "Servisna evidencija",
+  "short_name": "Servis",
+  "lang": "bs",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f7",
+  "theme_color": "#f4f6f8",
+  "description": "Offline evidencija popravki za servisnu radnju"
+}
