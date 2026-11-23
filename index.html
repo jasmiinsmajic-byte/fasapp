@@ -9,7 +9,7 @@
 :root{--bg:#f3f5f7;--card:#fff;--ink:#17212b;--muted:#687684;--line:#e5e9ee;--blue:#2457d6;--green:#16845b;--orange:#b96b12;--red:#c23c3c;--shadow:0 5px 20px #14202b0c}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding-bottom:92px}
 header{background:#fff;padding:18px max(16px,env(safe-area-inset-left));border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
-.head{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.brandwrap{display:flex;align-items:center;gap:9px}.brandlogo{width:30px;height:30px;object-fit:contain;border-radius:7px}.brand{font-size:21px;font-weight:800;letter-spacing:-.5px}.sub{font-size:12px;color:var(--muted);margin-top:3px}
+.head{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}.brandwrap{display:flex;align-items:center;gap:9px}.brandlogo{width:60px;height:60px;object-fit:contain;border-radius:7px}.brand{font-size:21px;font-weight:800;letter-spacing:-.5px}.sub{font-size:12px;color:var(--muted);margin-top:3px}
 main{max-width:1100px;margin:18px auto;padding:0 14px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}
 .stat,.panel,.job{background:var(--card);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}
 .stat{padding:13px}.stat small{color:var(--muted);display:block;font-size:12px}.stat strong{font-size:23px;display:block;margin-top:5px}
@@ -20,12 +20,12 @@ button{font:inherit;border:0;border-radius:10px;padding:11px 14px;font-weight:65
 .primary{background:var(--blue);color:#fff}.secondary{background:#edf1f6;color:#253343}.danger{background:#fff0f0;color:var(--red)}.tiny{padding:7px 10px;font-size:13px}
 .toolbar .primary{flex:0 0 calc((100% - 30px)/4);width:calc((100% - 30px)/4);padding:13px 10px;font-size:16px;min-height:46px}
 .tabs{display:flex;gap:7px;overflow:auto;margin:0 0 14px;padding-bottom:3px}.tab{background:#e9edf2;color:#4c5967;white-space:nowrap}.tab.active{background:#1e2b3a;color:#fff}
-.list{display:grid;gap:10px}.job{padding:14px}.jobtop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.job h3{margin:0 0 5px;font-size:17px}.muted{color:var(--muted);font-size:13px}.details{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0;color:#475463;font-size:13px}.badge{font-size:14px;font-weight:750;padding:7px 11px;border-radius:20px;white-space:nowrap}.s-nova{background:#eaf0ff;color:#3158b9}.s-radu{background:#fff2dc;color:#9b5b0c}.s-dijelovi{background:#f4eaff;color:#7742a8}.s-zavrsena{background:#e4f6ed;color:#13744e}.s-preuzeta{background:#edf0f2;color:#52606d}
+.list{display:grid;gap:10px}.job{padding:14px}.jobtop{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.job h3{margin:0 0 5px;font-size:17px}.muted{color:var(--muted);font-size:13px}.details{display:flex;gap:12px;flex-wrap:wrap;margin:10px 0;color:#475463;font-size:15px}.details b{font-weight:800}.phone-number{font-weight:800;font-size:15px;color:#253343}.badge{font-size:28px;font-weight:800;padding:14px 22px;border-radius:24px;white-space:nowrap;display:inline-block}.s-nova{background:#eaf0ff;color:#3158b9}.s-radu{background:#fff2dc;color:#9b5b0c}.s-dijelovi{background:#f4eaff;color:#7742a8}.s-zavrsena{background:#e4f6ed;color:#13744e}.s-preuzeta{background:#edf0f2;color:#52606d}
 .actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:11px}.empty{text-align:center;color:var(--muted);padding:35px 15px;background:#fff;border:1px dashed #cbd3dc;border-radius:14px}
 .panel{padding:16px;margin-bottom:14px}.panel h2{font-size:18px;margin:0 0 14px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:11px}.field label{display:block;font-size:12px;font-weight:700;color:#596675;margin:0 0 5px}.field.full{grid-column:1/-1}.field textarea{min-height:76px;resize:vertical}.formactions{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
 .bottom{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:6}.bottominner{max-width:1100px;margin:auto;display:flex;gap:9px}.bottom button{flex:1}
 .hidden{display:none!important}.money{font-weight:800}.priority{color:#b44b24;font-weight:800}.sectiontitle{font-size:19px;margin:8px 0 12px}
-@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.toolbar .primary{flex-basis:calc((100% - 10px)/2);width:calc((100% - 10px)/2);padding-left:7px;padding-right:7px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.brand{font-size:19px}.brandlogo{width:30px;height:30px}.jobtop{display:block}.jobtop .badge{display:inline-block;margin-top:8px}}
+@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.toolbar .primary{flex-basis:calc((100% - 10px)/2);width:calc((100% - 10px)/2);padding-left:7px;padding-right:7px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.brand{font-size:19px}.brandlogo{width:60px;height:60px}.jobtop{display:block}.jobtop .badge{display:inline-block;margin-top:8px}}
 </style></head>
 <body>
 <header><div class="head"><div class="brandwrap"><img class="brandlogo" src="https://d4n0y8dshd77z.cloudfront.net/avatars/3176095/LWWYceVViGBp46ow5hzUp0RXWUfm6yNO/sm.webp" alt="Logo"><div class="brand">Servisna evidencija</div></div><button class="secondary tiny" onclick="showBackup()">Sigurnosna kopija</button></div></header>
@@ -40,7 +40,6 @@ button{font:inherit;border:0;border-radius:10px;padding:11px 14px;font-weight:65
 <div class="toolbar"><input id="search" placeholder="Pretraži mušteriju, telefon ili uređaj..." oninput="render()"><button class="primary" onclick="newJob()">+ Nova popravka</button></div>
 <div class="tabs" id="filters">
 <button class="tab active" data-filter="sve" onclick="setFilter('sve',this)">Sve</button>
-<button class="tab" data-filter="Nova" onclick="setFilter('Nova',this)">Nove</button>
 <button class="tab" data-filter="U radu" onclick="setFilter('U radu',this)">U radu</button>
 <button class="tab" data-filter="Čeka dijelove" onclick="setFilter('Čeka dijelove',this)">Čekaju dijelove</button>
 <button class="tab" data-filter="Završena" onclick="setFilter('Završena',this)">Završene</button>
@@ -58,7 +57,7 @@ button{font:inherit;border:0;border-radius:10px;padding:11px 14px;font-weight:65
 <div class="field"><label>Datum prijema</label><input id="date" type="date"></div>
 <div class="field full"><label>Opis kvara / razlog dolaska</label><textarea id="problem"></textarea></div>
 <div class="field full"><label>Urađeni radovi</label><textarea id="work"></textarea></div>
-<div class="field"><label>Status</label><select id="status"><option>Nova</option><option>U radu</option><option>Čeka dijelove</option><option>Završena</option><option>Preuzeta</option></select></div>
+<div class="field"><label>Status</label><select id="status"><option>U radu</option><option>Čeka dijelove</option><option>Završena</option><option>Preuzeta</option></select></div>
 <div class="field"><label>Cijena (KM)</label><input id="price" type="number" min="0" step="0.01" placeholder="0.00"></div>
 <div class="field full"><label>Napomene</label><textarea id="notes"></textarea></div>
 </div><div class="formactions"><button type="button" class="secondary" onclick="showHome()">Odustani</button><button class="primary" type="submit">Sačuvaj popravku</button></div>
@@ -74,6 +73,7 @@ button{font:inherit;border:0;border-radius:10px;padding:11px 14px;font-weight:65
 <script>
 const KEY='servisnaEvidencija_v1';let jobs=[];let filter='sve';let editing=null;
 try{jobs=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){jobs=[]}
+let migratedNova=false;for(const job of jobs){if(job.status==='Nova'){job.status='U radu';migratedNova=true}}if(migratedNova){try{localStorage.setItem(KEY,JSON.stringify(jobs))}catch(e){}}
 const $=id=>document.getElementById(id);
 function persist(){localStorage.setItem(KEY,JSON.stringify(jobs))}
 function money(v){return (Number(v)||0).toLocaleString('bs-BA',{minimumFractionDigits:0,maximumFractionDigits:2})+' KM'}
@@ -87,16 +87,16 @@ $('stActive').textContent=jobs.filter(j=>!['Završena','Preuzeta'].includes(j.st
 $('stParts').textContent=jobs.filter(j=>j.status==='Čeka dijelove').length;
 $('stDone').textContent=jobs.filter(j=>['Završena','Preuzeta'].includes(j.status)).length;
 $('stMoney').textContent=money(jobs.filter(j=>['Završena','Preuzeta'].includes(j.status)).reduce((s,j)=>s+(Number(j.price)||0),0));
-$('jobs').innerHTML=arr.length?arr.map((j,i)=>`<article class="job"><div class="jobtop"><div><h3>${esc(j.customer)} · ${esc(j.device)}</h3><div class="muted">${esc(j.phone||'Bez telefona')} · Prijem: ${esc(j.date||'—')}</div></div><span class="badge ${badge(j.status)}">${esc(j.status)}</span></div>
+$('jobs').innerHTML=arr.length?arr.map((j,i)=>`<article class="job"><div class="jobtop"><div><h3>${esc(j.customer)} · ${esc(j.device)}</h3><div class="muted"><span class="phone-number">${esc(j.phone||'Bez telefona')}</span> · Prijem: ${esc(j.date||'—')}</div></div><span class="badge ${badge(j.status)}">${esc(j.status)}</span></div>
 <div class="details">${j.problem?`<span><b>Kvar:</b> ${esc(j.problem)}</span>`:''}${j.work?`<span><b>Radovi:</b> ${esc(j.work)}</span>`:''}<span class="money">${money(j.price)}</span>${j.notes?`<span><b>Napomena:</b> ${esc(j.notes)}</span>`:''}</div>
 <div class="actions"><button class="secondary tiny" onclick="editJob('${j.id}')">Uredi</button><button class="secondary tiny" onclick="moveJob('${j.id}',-1)">↑ Prioritet</button><button class="secondary tiny" onclick="moveJob('${j.id}',1)">↓ Prioritet</button><button class="secondary tiny" onclick="cycleStatus('${j.id}')">Promijeni status</button><button class="danger tiny" onclick="deleteJob('${j.id}')">Obriši</button></div></article>`).join(''):'<div class="empty">Nema popravki za prikaz.<br>Dodaj prvu popravku dugmetom „Nova popravka“.</div>';
 }
-function badge(s){return {'Nova':'s-nova','U radu':'s-radu','Čeka dijelove':'s-dijelovi','Završena':'s-zavrsena','Preuzeta':'s-preuzeta'}[s]||'s-nova'}
-function newJob(){editing=null;$('jobForm').reset();$('date').value=new Date().toISOString().slice(0,10);$('editorTitle').textContent='Nova popravka';$('dashboard').classList.add('hidden');$('backup').classList.add('hidden');$('editor').classList.remove('hidden')}
+function badge(s){return {'U radu':'s-radu','Čeka dijelove':'s-dijelovi','Završena':'s-zavrsena','Preuzeta':'s-preuzeta'}[s]||'s-radu'}
+function newJob(){editing=null;$('jobForm').reset();$('status').value='U radu';$('date').value=new Date().toISOString().slice(0,10);$('editorTitle').textContent='Nova popravka';$('dashboard').classList.add('hidden');$('backup').classList.add('hidden');$('editor').classList.remove('hidden')}
 function editJob(id){let j=jobs.find(x=>x.id===id);if(!j)return;editing=id;['customer','phone','device','date','problem','work','status','price','notes'].forEach(k=>$(k).value=j[k]??'');$('editorTitle').textContent='Uredi popravku';$('dashboard').classList.add('hidden');$('editor').classList.remove('hidden')}
 function saveJob(e){e.preventDefault();let obj={};['customer','phone','device','date','problem','work','status','price','notes'].forEach(k=>obj[k]=$(k).value.trim());obj.price=Number(obj.price)||0;if(editing){let old=jobs.find(x=>x.id===editing);Object.assign(old,obj)}else{obj.id=crypto.randomUUID?crypto.randomUUID():String(Date.now());obj.order=jobs.length?Math.max(...jobs.map(x=>x.order||0))+1:1;jobs.push(obj)}persist();showHome()}
 function moveJob(id,dir){let sorted=[...jobs].sort((a,b)=>(a.order||0)-(b.order||0));let i=sorted.findIndex(x=>x.id===id),k=i+dir;if(k<0||k>=sorted.length)return;let a=sorted[i].order,b=sorted[k].order;sorted[i].order=b;sorted[k].order=a;persist();render()}
-function cycleStatus(id){let states=['Nova','U radu','Čeka dijelove','Završena','Preuzeta'];let j=jobs.find(x=>x.id===id);j.status=states[(states.indexOf(j.status)+1)%states.length];persist();render()}
+function cycleStatus(id){let states=['U radu','Čeka dijelove','Završena','Preuzeta'];let j=jobs.find(x=>x.id===id);j.status=states[(states.indexOf(j.status)+1)%states.length];persist();render()}
 function deleteJob(id){if(!confirm('Obrisati ovu popravku?'))return;jobs=jobs.filter(x=>x.id!==id);persist();render()}
 function exportData(){let blob=new Blob([JSON.stringify({version:1,exported:new Date().toISOString(),jobs},null,2)],{type:'application/json'});let a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='servisna-kopija-'+new Date().toISOString().slice(0,10)+'.json';a.click();URL.revokeObjectURL(a.href)}
 function importData(e){let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let d=JSON.parse(r.result);if(!Array.isArray(d.jobs))throw Error();if(!confirm('Uvoz će zamijeniti trenutnu evidenciju. Nastaviti?'))return;jobs=d.jobs;persist();alert('Podaci su uspješno uvezeni.');showHome()}catch(err){alert('Datoteka nije ispravna kopija aplikacije.')}};r.readAsText(f)}
